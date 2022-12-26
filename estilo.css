@@ -1,0 +1,67 @@
+/*https://www.bestcssbuttongenerator.com/*/
+
+h1, div, p {color: black; font-family: Arial, Helvetica, sans-serif}
+body { background-color: white; }
+
+.container, .container-img {
+    display: grid;
+    border-radius: 5px;
+    padding: 5px;
+    /*background-color: white;*/
+    border: none;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-auto-rows: minmax(80px, auto);
+    grid-gap: 5px;
+    justify-content: center;
+    font-size: small;
+}
+
+.container>div:hover{
+        background-color: rgb(170, 168, 168);
+        opacity: 0.6;
+        transition: opacity .5s;  
+}
+
+.seleccionado{
+        background-color: rgb(170, 168, 168) !important;
+        opacity: 0.6;
+        transition: opacity .5s;  
+}
+
+.foto{
+        border-radius: 250px;
+        width:150px;
+        height: 150px;
+        
+}
+
+.myButton {
+	background-color:#080808;
+	border-radius:28px;
+	border:1px solid #4a494a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #6b706a;
+        
+}
+.myButton:hover {
+	background-color:#7b8078;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.container-img > div{
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid rgb(145, 143, 143);
+        border-style: dotted ;
+        text-align: center;
+      }

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Black Cat - Perfumes</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+    <link rel="icon" href="lociones_imagenes/favicon2.png" />
+    <style>
+        .container > div {
+            border-radius: 5px;
+            padding: 40px;
+            /*background-color: white;*/
+            border: 2px solid rgb(145, 143, 143);
+            border-style: dotted ;
+            text-align: center;
+            
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div style="display:flex">
+        <img  class="foto" src="lociones_imagenes/blackcat.JPG" />
+    <h1 style="padding-top: 40px;">Perfumes para Damas y Caballeros - Edición especial</h1>
+        </div>
+    
+    
+
+    <script src="lociones.js">    </script>
+
+    <p id="texto1">Elige el tipo de loción que te gusta: 
+    <select id="genero">
+        <option value="" selected>Elige una opcion</option>
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+        <option value="Unisex">Unisex</option>
+    </select>
+    </p>
+    <p id="texto2">
+        Por favor escoge los aromas de mayor preferencia en tu perfume, maximo (5). 
+        <a href="#" class="myButton" onclick="buscar()">Buscar</a>
+    </p>
+    
+    <div class="container" id="opciones">
+        <div id="div1"  onclick="cambiarEstilo('div1')">Acuatico</div>
+        <div id="div2" onclick="cambiarEstilo('div2')">Ahumado</div>
+        <div id="div3" onclick="cambiarEstilo('div3')">Alcanfor</div>
+        <div id="div4" onclick="cambiarEstilo('div4')">Almizclado</div>
+        <div id="div5" onclick="cambiarEstilo('div5')">Ambar</div>
+        <div id="div6" onclick="cambiarEstilo('div6')">Animalico</div>
+        <div id="div7" onclick="cambiarEstilo('div7')">Aromatico</div>
+        <div id="div8" onclick="cambiarEstilo('div8')">Balsamico</div>
+        <div id="div9" onclick="cambiarEstilo('div9')">Cacao</div>
+        <div id="div10" onclick="cambiarEstilo('div10')">Calida Picante</div>
+        <div id="div11" onclick="cambiarEstilo('div11')">Canela</div>
+        <div id="div12" onclick="cambiarEstilo('div12')">Caramelo</div>
+        <div id="div13" onclick="cambiarEstilo('div13')">Cera de abejas</div>
+        <div id="div14" onclick="cambiarEstilo('div14')">Citrico</div>
+        <div id="div15" onclick="cambiarEstilo('div15')">Coco</div>
+        <div id="div16" onclick="cambiarEstilo('div16')">Cubierto de musgo</div>
+        <div id="div17" onclick="cambiarEstilo('div17')">Cuero</div>
+        <div id="div18" onclick="cambiarEstilo('div18')">Dulce</div>
+        <div id="div19" onclick="cambiarEstilo('div19')">En polvo</div>
+        <div id="div20" onclick="cambiarEstilo('div20')">Floral</div>
+        <div id="div21" onclick="cambiarEstilo('div21')">Flores Amarillas</div>
+        <div id="div22" onclick="cambiarEstilo('div22')">Flores Blancas</div>
+        <div id="div23" onclick="cambiarEstilo('div23')">Frutal</div>
+        <div id="div24" onclick="cambiarEstilo('div24')">Herbario</div>
+        <div id="div25" onclick="cambiarEstilo('div25')">Lactonico</div>
+        <div id="div26" onclick="cambiarEstilo('div26')">Laud</div>
+        <div id="div27" onclick="cambiarEstilo('div27')">Lavanda</div>
+        <div id="div28" onclick="cambiarEstilo('div28')">Leñoso</div>
+        <div id="div29" onclick="cambiarEstilo('div29')">Marino</div>
+        <div id="div30" onclick="cambiarEstilo('div30')">Metalico</div>
+        <div id="div31" onclick="cambiarEstilo('div31')">Miel</div>
+        <div id="div32" onclick="cambiarEstilo('div32')">Nuevo</div>
+        <div id="div33" onclick="cambiarEstilo('div33')">Ozonico</div>
+        <div id="div34" onclick="cambiarEstilo('div34')">Pachuli</div>
+        <div id="div35" onclick="cambiarEstilo('div35')">Picante Fresco</div>
+        <div id="div36" onclick="cambiarEstilo('div36')">Picante Suave</div>
+        <div id="div37" onclick="cambiarEstilo('div37')">Rosa</div>
+        <div id="div38" onclick="cambiarEstilo('div38')">Salado</div>
+        <div id="div39" onclick="cambiarEstilo('div39')">Terroso</div>
+        <div id="div40" onclick="cambiarEstilo('div40')">Tropical</div>
+        <div id="div41" onclick="cambiarEstilo('div41')">Tuberosa</div>
+        <div id="div42" onclick="cambiarEstilo('div42')">Vainilla</div>
+        <div id="div43" onclick="cambiarEstilo('div43')">Verde</div>
+        <div id="div44" onclick="cambiarEstilo('div44')">Violeta</div>
+    </div>
+
+    <div id="texto3"></div>
+    <div id="resultados" class="container-img" >
+
+
+    </div>
+
+
+</body>
+</html>
